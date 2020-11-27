@@ -1,1 +1,150 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.header {
+  padding: 0 0 4rem 0;
+}
+
+.header .site__title {
+  text-align: center;
+  padding: 1.2rem 0;
+  font-size: 2.2em;
+  font-weight: 900;
+  font-family: 'Shrikhand', cursive;
+  -webkit-box-shadow: 0 0 0.7rem 0.2rem #949494;
+          box-shadow: 0 0 0.7rem 0.2rem #949494;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  z-index: 999;
+}
+
+.header .location {
+  text-align: center;
+  padding: 1.2rem;
+  background-color: #dadada;
+  font-weight: 600;
+  color: #424242;
+}
+
+.header .location span {
+  margin-right: 18px;
+}
+
+.header .intro {
+  background-color: #f0efef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10% 15%;
+}
+
+.header .intro .intro__title {
+  font-size: 1.3em;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.header .intro .intro__text {
+  text-align: center;
+  margin-bottom: 4rem;
+  color: gray;
+}
+
+.header .help .help__title {
+  font-size: 1.6em;
+  font-weight: 800;
+  width: 100%;
+  margin-top: 4rem;
+  margin-left: 1.6rem;
+}
+
+.header .help .help__steps ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 1.2rem 2rem 2rem;
+  overflow: hidden;
+}
+
+.header .help .help__steps ul .step {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  -webkit-box-shadow: 0 0 0.8rem rgba(134, 134, 134, 0.432);
+          box-shadow: 0 0 0.8rem rgba(134, 134, 134, 0.432);
+  border-radius: 50px;
+  margin-top: 30px;
+  line-height: 40px;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.header .help .help__steps ul .step .number {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  background-color: #9356DC;
+  text-align: center;
+  line-height: 2rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 50%;
+  margin-left: -1rem;
+  margin-right: 2rem;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.header .help .help__steps ul .step.active {
+  background-color: #9256dc1c;
+}
+
+.header .help .help__steps ul .step.active .fas {
+  color: #9356DC;
+}
+
+.header .help .help__steps ul .step .fas {
+  color: gray;
+  font-size: 1.1em;
+  margin-right: 1.5rem;
+}
+
+.header .help .help__steps ul .step:hover .number {
+  -webkit-box-shadow: 0 0 10px gray;
+          box-shadow: 0 0 10px gray;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.header .help .help__steps ul .step:hover {
+  -webkit-transform: translateY(-5px) scale(1.03);
+          transform: translateY(-5px) scale(1.03);
+  -webkit-box-shadow: 0 0.1rem 0.2rem 0.2rem rgba(167, 167, 167, 0.699);
+          box-shadow: 0 0.1rem 0.2rem 0.2rem rgba(167, 167, 167, 0.699);
+}
+/*# sourceMappingURL=styles.css.map */
