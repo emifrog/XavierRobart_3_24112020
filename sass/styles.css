@@ -374,6 +374,76 @@
           transform: rotate(360deg);
 }
 
+.footer {
+  background-color: #535353;
+  color: white;
+  padding: 1.2rem;
+}
+
+.footer .footer__title {
+  font-size: 1.4em;
+  font-family: 'Shrikhand', cursive;
+}
+
+.footer .footer__list {
+  margin-top: 16px;
+  font-size: 1.1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer .footer__list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer .footer__list li:hover {
+  color: #FF79DA;
+}
+
+.footer .footer__list li span {
+  font-size: .9em;
+  display: inline-block;
+  width: 15px;
+  margin-right: 12px;
+}
+
+@media (min-width: 1200px) {
+  .footer .footer__title {
+    text-align: center;
+  }
+  .footer .footer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 30px;
+  }
+  .footer .footer__list li {
+    margin: 15px;
+  }
+}
+
 .group__item {
   margin-top: 16px;
   display: -webkit-box;
@@ -561,21 +631,21 @@
 
 .menu__main .image {
   height: 300px;
-  background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-image: url("/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.menu__main .image.bastille {
-  background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+.menu__main .image.alafrancaise {
+  background-image: url("/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
 }
 
 .menu__main .image.gourmand {
-  background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  background-image: url("/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
 }
 
 .menu__main .image.enchanted {
-  background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-image: url("/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
 }
 
 .menu__main .menu {
@@ -695,4 +765,94 @@
   -webkit-animation: fade-in 1s 1.6s ease-in-out forwards;
   -moz-animation: fade-in 1s 1.6s ease-in-out forwards;
 }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, section, summary, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: .9em;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+  outline: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.hide_element {
+  display: none;
+}
+
+/*body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+   line-height: 1.7;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    font-style: italic;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+button {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 900;
+   font-style: italic;
+   font-size: 2.75rem;
+}*/
 /*# sourceMappingURL=styles.css.map */

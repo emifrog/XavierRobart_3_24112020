@@ -1,6 +1,12 @@
-@import "./variables";
-@import "./header";
-@import "./container";
-@import "./restaurants_card";
-@import "./card";
-@import "./menu";
+@import "./abstracts/variables";
+
+@import "./layouts/header";
+@import "./layouts/container";
+@import "./layouts/restaurants_card";
+@import "./layouts/card";
+@import "./layouts/footer";
+
+@import "./pages/menu";
+
+@import "./base/base";
+@import "./base/typography";
