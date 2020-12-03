@@ -6,13 +6,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;800;900&family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts/css/all.css">
-    <link rel="stylesheet" href="sass/styles.css">
-    <title>OhMyFood</title>
+    <link rel="stylesheet" href="sass/style.css">
+    <title>OhMyfood</title>
 </head>
 <body>
+    
     <div class="container">
 
-        <!-- Header -->
+        <!-- LOADER -->
+        <div class="loader_container">
+            <div class="loading">
+                <span>Loading...</span>
+            </div>
+        </div>
+        
+        <!-- HEADER -->
         <header class="header">
             <h1 class="site__title">ohmyfood</h1>
             <div class="location">
@@ -23,7 +31,7 @@
                     Réservez le menu qui vous convient
                 </h2>
                 <p class="intro__text">
-                    Découvrez des restaurants d'exception, séléctionnés par nos soins.
+                    Découvrez des restaurants d'exception séléctionnés par nos soins.
                 </p>
                 <button class="intro__action">
                     Explorer nos restaurants
@@ -55,7 +63,7 @@
             </section>
         </header>
 
-        <!-- Menu -->
+        <!-- MENU -->
         <main class="main">
             <section class="restaurants">
                 <h2 class="restaurants__title">
@@ -66,7 +74,7 @@
                     <div class="restaurant__card-body">
                         <div class="text">
                             <h3 class="restaurant__card-title">La palette du goût</h3>
-                            <p class="restaurant__card-location">Ménilmontan</p>
+                            <p class="restaurant__card-location">Ménilmontant</p>
                         </div>
                         <div class="like">
                             <span class="far fa-heart"></span>
@@ -74,6 +82,7 @@
                         </div>
                     </div>
                 </a>
+
                 <a href="lanote.html" class="restaurant__card new">
                     <div class="restaurant__card-image image2"></div>
                     <div class="restaurant__card-body">
@@ -87,11 +96,12 @@
                         </div>
                     </div>
                 </a>
+
                 <a href="alafrançaise.html" class="restaurant__card">
                     <div class="restaurant__card-image image3"></div>
                     <div class="restaurant__card-body">
                         <div class="text">
-                            <h3 class="restaurant__card-title">A la française</h3>
+                            <h3 class="restaurant__card-title">À la française</h3>
                             <p class="restaurant__card-location">Cité Rouge</p>
                         </div>
                         <div class="like">
@@ -100,6 +110,7 @@
                         </div>
                     </div>
                 </a>
+
                 <a href="ledelice.html" class="restaurant__card">
                     <div class="restaurant__card-image image4"></div>
                     <div class="restaurant__card-body">
@@ -118,15 +129,16 @@
 
         <!-- FOOTER -->
         <footer class="footer">
-            <h2 class="footer__title">ohmyfood</h2>
+                <h2 class="footer__title">ohmyfood</h2>
             <ul class="footer__list">
                 <li><span class="fas fa-utensils"></span>Proposer un restaurant</li>
                 <li><span class="fas fa-hands-helping"></span>Devenir partenaire</li>
-                <li>Mentions Légales</li>
+                <li>Mentions légales</li>
                 <li>Contact</li>
             </ul>
         </footer>
 
     </div>
+
 </body>
 </html>

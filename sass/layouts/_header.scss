@@ -1,12 +1,12 @@
 .header {
-    padding: 0 0 64px 0;
+    padding: 0 0 40px 0;
     .site__title{
         text-align: center;
-        padding: 19px 0;
-        font-size: 35px;
+        padding: 1.2rem 0;
+        font-size: 2.2em;
         font-weight: 900;
         font-family: 'Shrikhand', cursive;
-        box-shadow: 0 0 11px 3px rgb(148, 148, 148);
+        box-shadow: 0 0 .7rem .2rem rgb(148, 148, 148);
         width: 100%;
         background-color: white;
         position: relative;
@@ -14,7 +14,7 @@
     }
     .location{
         text-align: center;
-        padding: 19px;
+        padding: 1.2rem;
         background-color: rgb(218, 218, 218);
         font-weight: 600;
         color: #424242;
@@ -30,31 +30,31 @@
         flex-direction: column;
         padding: 10% 15%;
         .intro__title{
-            font-size: 21px;
+            font-size: 1.3em;
             font-weight: 800;
-            margin-bottom: 40px;
+            text-align: center;
+            margin-bottom: 20px;
         }
         .intro__text{
             text-align: center;
-            margin-bottom: 64px;
+            margin-bottom: 40px;
             color: gray;
-        }      
-        
+        }              
     }
     .help{
         .help__title{
-            font-size: 26px;
+            font-size: 1.6em;
             font-weight: 800;
             width: 100%;
-            margin-top: 64px;
-            margin-left: 26px;
+            margin-top: 20px;
+            margin-left: 1.6rem;
         }
         .help__steps ul{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 32px 19px 32px 32px;
+            padding: 2rem 1.2rem 2rem 2rem;
             overflow: hidden;
             .step{
                 position: relative;
@@ -64,23 +64,23 @@
                 border-radius: 50px;
                 margin-top: 30px;
                 line-height: 40px;
-                font-size: 18px;
+                font-size: 1.1em;
                 font-weight: 600;
                 display: flex;
                 align-items: center;
                 transition: all .4s ease-in-out;
                 .number{
                     display: inline-block;
-                    height: 32px;
-                    width: 32px;
+                    height: 2rem;
+                    width: 2rem;
                     background-color: #9356DC;
                     text-align: center;
-                    line-height: 32px;
+                    line-height: 2rem;
                     color: white;
                     font-weight: 500;
                     border-radius: 50%;
-                    margin-left: -16px;
-                    margin-right: 32px;
+                    margin-left: -1rem;
+                    margin-right: 2rem;
                     transition: all .4s ease-in-out;
                 }
                 &.active{
@@ -91,8 +91,8 @@
                 }
                 .fas{
                     color: gray;
-                    font-size: 18px;
-                    margin-right: 24px;
+                    font-size: 1.1em;
+                    margin-right: 1.5rem;
                     
                 }
                 &:hover .number{

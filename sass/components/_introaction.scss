@@ -1,0 +1,18 @@
+.intro__action{
+    border: none;
+    padding: 10px 30px;
+    background: linear-gradient(to bottom right, $secondary, $primary);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 0 3px rgba(160, 160, 160, 0.849);
+    cursor: pointer;
+    text-shadow: 0 0 3px white;
+    &:active, &:focus{
+        outline: 0;
+    }
+    &:hover{
+        background: linear-gradient(to bottom right, $primary , $secondary);
+        transform: scale(1.01);
+    }
+}

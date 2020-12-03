@@ -1,0 +1,114 @@
+@media (max-width: 990px){
+
+    .container{
+        width: 100%
+    }    
+}
+
+@media (min-width: 990px){
+    .container{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .header .help{
+        .help__title{
+            text-align: center;
+        }
+        .help__steps ul{
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .step{
+                width: 32%;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+                padding-bottom: 16px;
+                .number{
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    margin: 0;
+                    transform: translateY(-50%);
+                }
+                &:hover .number{
+                    box-shadow: 0 0 10px gray;
+                    transform: translateY(-50%) scale(1.1);
+                }
+                .fas{
+                    margin: 0;
+                    margin-bottom: 20px;
+                    font-size: 2em;
+
+                }
+            }
+        }
+    }
+    .main {
+        .restaurants{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .restaurants__title{
+                flex-basis: 100%;
+                padding: 0 16px 30px 0;
+                font-size: 2em;
+                font-weight: 800;
+                text-align: center;
+            }
+            .restaurant__card{
+                flex-basis: 45%;  
+            }
+       }   
+    }  
+    .menu__main header.image{
+            height: 25rem;
+            background-position: center center;
+        }
+    .menu{
+      
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        header, .button__order{
+            flex-basis: 100%;
+
+        }
+        header span{
+            cursor: pointer;
+        }
+        header span:hover{
+            display: none;
+            
+        }
+        .group{
+            width: 45%;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgb(196, 196, 196);
+            padding: 20px
+            
+        }
+    }
+
+}
+.header .intro{
+    padding: 3% 15%;
+}
+
+@media (min-width: 635px){
+    .restaurants{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .restaurants__title{
+            flex-basis: 100%;
+        }
+        .restaurant__card{
+            flex-basis: 45%;  
+        }
+   }   
+}

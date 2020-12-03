@@ -1,0 +1,19 @@
+@import "./abstracts/variables";
+@import "./abstracts/functions";
+@import "./abstracts/animation";
+
+@import "./base/base";
+@import "./base/media";
+
+@import "./components/introaction";
+@import "./components/like";
+@import "./components/loader";
+
+@import "./layouts/cardplate";
+@import "./layouts/restaurant_card";
+@import "./layouts/footer";
+@import "./layouts/container";
+@import "./layouts/header";
+@import "./layouts/container";
+
+@import "./pages/menu";

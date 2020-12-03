@@ -1,0 +1,30 @@
+.like{
+    position: relative;
+    padding-right: 30px;
+    span{
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.6em;
+        cursor: pointer;
+        transition: all 1s ease;  
+    }
+    .fas{
+        display: none;
+        color: $primary; 
+    }
+    .far:hover{
+        display: none;
+    }
+    .far:hover ~ .fas{
+        display: block;
+    }
+
+    .fas:hover{
+        display: block;
+    }
+    
+    
+}
