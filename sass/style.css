@@ -165,10 +165,10 @@ a {
     width: 75%;
     margin: 0 auto;
   }
-  .header .help .help__title {
+  header .help .help__title {
     text-align: center;
   }
-  .header .help .help__steps ul {
+  header .help .help__steps ul {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -180,7 +180,7 @@ a {
         -ms-flex-align: center;
             align-items: center;
   }
-  .header .help .help__steps ul .step {
+  header .help .help__steps ul .step {
     width: 32%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -200,7 +200,7 @@ a {
     padding: 0;
     padding-bottom: 16px;
   }
-  .header .help .help__steps ul .step .number {
+  header .help .help__steps ul .step .number {
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -208,13 +208,13 @@ a {
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-  .header .help .help__steps ul .step:hover .number {
+  header .help .help__steps ul .step:hover .number {
     -webkit-box-shadow: 0 0 10px gray;
             box-shadow: 0 0 10px gray;
     -webkit-transform: translateY(-50%) scale(1.1);
             transform: translateY(-50%) scale(1.1);
   }
-  .header .help .help__steps ul .step .fas {
+  header .help .help__steps ul .step .fas {
     margin: 0;
     margin-bottom: 20px;
     font-size: 2em;
@@ -272,7 +272,7 @@ a {
   }
 }
 
-.header .intro {
+header .intro {
   padding: 3% 15%;
 }
 
@@ -752,11 +752,11 @@ footer .footer__list li span {
   font-weight: 800;
 }
 
-.header {
+header {
   padding: 0 0 40px 0;
 }
 
-.header .site__title {
+header .site__title {
   text-align: center;
   padding: 1.2rem 0;
   font-size: 2.2em;
@@ -770,7 +770,7 @@ footer .footer__list li span {
   z-index: 999;
 }
 
-.header .location {
+header .location {
   text-align: center;
   padding: 1.2rem;
   background-color: #dadada;
@@ -778,11 +778,11 @@ footer .footer__list li span {
   color: #424242;
 }
 
-.header .location span {
+header .location span {
   margin-right: 18px;
 }
 
-.header .intro {
+header .intro {
   background-color: #f0efef;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -799,20 +799,20 @@ footer .footer__list li span {
   padding: 10% 15%;
 }
 
-.header .intro .intro__title {
+header .intro .intro__title {
   font-size: 1.3em;
   font-weight: 800;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.header .intro .intro__text {
+header .intro .intro__text {
   text-align: center;
   margin-bottom: 40px;
   color: gray;
 }
 
-.header .help .help__title {
+header .help .help__title {
   font-size: 1.6em;
   font-weight: 800;
   width: 100%;
@@ -820,7 +820,7 @@ footer .footer__list li span {
   margin-left: 1.6rem;
 }
 
-.header .help .help__steps ul {
+header .help .help__steps ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -838,7 +838,7 @@ footer .footer__list li span {
   overflow: hidden;
 }
 
-.header .help .help__steps ul .step {
+header .help .help__steps ul .step {
   position: relative;
   width: 100%;
   padding: 20px 0;
@@ -859,7 +859,7 @@ footer .footer__list li span {
   transition: all .4s ease-in-out;
 }
 
-.header .help .help__steps ul .step .number {
+header .help .help__steps ul .step .number {
   display: inline-block;
   height: 2rem;
   width: 2rem;
@@ -875,28 +875,28 @@ footer .footer__list li span {
   transition: all .4s ease-in-out;
 }
 
-.header .help .help__steps ul .step.active {
+header .help .help__steps ul .step.active {
   background-color: #9256dc1c;
 }
 
-.header .help .help__steps ul .step.active .fas {
+header .help .help__steps ul .step.active .fas {
   color: #9356DC;
 }
 
-.header .help .help__steps ul .step .fas {
+header .help .help__steps ul .step .fas {
   color: gray;
   font-size: 1.1em;
   margin-right: 1.5rem;
 }
 
-.header .help .help__steps ul .step:hover .number {
+header .help .help__steps ul .step:hover .number {
   -webkit-box-shadow: 0 0 10px gray;
           box-shadow: 0 0 10px gray;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.header .help .help__steps ul .step:hover {
+header .help .help__steps ul .step:hover {
   -webkit-transform: translateY(-5px) scale(1.03);
           transform: translateY(-5px) scale(1.03);
   -webkit-box-shadow: 0 0.1rem 0.2rem 0.2rem rgba(167, 167, 167, 0.699);
