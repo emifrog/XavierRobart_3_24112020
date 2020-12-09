@@ -296,7 +296,7 @@ a {
   }
 }
 
-.intro__action {
+.button__action {
   border: none;
   padding: 10px 30px;
   background: -webkit-gradient(linear, left top, right bottom, from(#FF79DA), to(#9356DC));
@@ -310,11 +310,11 @@ a {
   text-shadow: 0 0 3px white;
 }
 
-.intro__action:active, .intro__action:focus {
+.button__action:active, .button__action:focus {
   outline: 0;
 }
 
-.intro__action:hover {
+.button__action:hover {
   background: -webkit-gradient(linear, left top, right bottom, from(#9356DC), to(#FF79DA));
   background: linear-gradient(to bottom right, #9356DC, #FF79DA);
   -webkit-transform: scale(1.01);
@@ -421,7 +421,7 @@ a {
   position: absolute;
   width: 200px;
   height: 200px;
-  color: #fff;
+  color: #000;
   text-align: center;
   line-height: 200px;
   -webkit-animation: a2 2s linear infinite;
@@ -601,13 +601,13 @@ a {
 }
 
 .restaurant__card.new::after {
-  content: 'New';
+  content: 'Nouveau';
   position: absolute;
   top: 1rem;
   right: 1rem;
   background-color: #99e2d0;
   color: #2b816c;
-  padding: 8px 25px;
+  padding: 8px 20px;
   font-size: 1.2em;
   font-weight: 700;
   border-radius: 3px;
