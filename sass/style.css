@@ -876,14 +876,6 @@ header .help .help__steps ul .step .number {
   transition: all .4s ease-in-out;
 }
 
-header .help .help__steps ul .step.active {
-  /*background-color: #9256dc1c;*/
-}
-
-header .help .help__steps ul .step.active .fas {
-  color: #9356DC;
-}
-
 header .help .help__steps ul .step .fas {
   color: gray;
   font-size: 1.1em;
@@ -900,8 +892,13 @@ header .help .help__steps ul .step:hover .number {
 header .help .help__steps ul .step:hover {
   -webkit-transform: translateY(-5px) scale(1.03);
           transform: translateY(-5px) scale(1.03);
-  -webkit-box-shadow: 0 0.1rem 0.2rem 0.2rem rgba(167, 167, 167, 0.699);
-          box-shadow: 0 0.1rem 0.2rem 0.2rem rgba(167, 167, 167, 0.699);
+  -webkit-box-shadow: 0 0.1rem 0.2rem 0.2rem rgba(214, 209, 209, 0.699);
+          box-shadow: 0 0.1rem 0.2rem 0.2rem rgba(214, 209, 209, 0.699);
+}
+
+header .help .step:hover {
+  color: #6b19e6;
+  background-color: rgba(230, 204, 255, 0.4);
 }
 
 .main {
