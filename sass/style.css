@@ -855,6 +855,7 @@ header .help .help__steps ul .step {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
@@ -876,7 +877,7 @@ header .help .help__steps ul .step .number {
 }
 
 header .help .help__steps ul .step.active {
-  background-color: #9256dc1c;
+  /*background-color: #9256dc1c;*/
 }
 
 header .help .help__steps ul .step.active .fas {

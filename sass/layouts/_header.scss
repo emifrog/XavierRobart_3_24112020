@@ -68,6 +68,7 @@ header {
                 font-weight: 600;
                 display: flex;
                 align-items: center;
+                cursor: pointer;
                 transition: all .4s ease-in-out;
                 .number{
                     display: inline-block;
@@ -87,7 +88,7 @@ header {
                     .fas{
                         color: #9356DC;
                     }
-                    background-color: #9256dc1c;
+                    /*background-color: #9256dc1c;*/
                 }
                 .fas{
                     color: gray;
