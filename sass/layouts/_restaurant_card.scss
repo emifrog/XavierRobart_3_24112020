@@ -26,24 +26,24 @@
     .image1, .image2, .image3, .image4{
         width: 100%;
         height: 13rem;
-        background-image: url("../../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+        background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
     }
     .image2{
-        background-image: url('../../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg');
+        background-image: url('../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg');
         background-position: center;
         background-position-y: 60%;
     }
     .image3{
-        background-image: url('../../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg');
+        background-image: url('../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg');
         background-size: cover;
         background-position: bottom; 
         
     } 
     .image4{
-        background-image: url('../../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg');
+        background-image: url('../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg');
     }
     .restaurant__card-body{
         display: flex;
