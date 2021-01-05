@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Charte graphique */
 @-webkit-keyframes fade-in {
   to {
     opacity: 1;
@@ -307,7 +308,6 @@ header .intro {
   -webkit-box-shadow: 0 0 3px rgba(160, 160, 160, 0.849);
           box-shadow: 0 0 3px rgba(160, 160, 160, 0.849);
   cursor: pointer;
-  text-shadow: 0 0 3px white;
 }
 
 .button__action:active, .button__action:focus {
